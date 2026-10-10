@@ -1,0 +1,24 @@
+# RESTgym tool manifest
+manifest_version: 1
+
+id: schemathesis
+name: Schemathesis
+version: "4.30.0"                 # pip install schemathesis==4.30.0
+description: Tests OpenAPI and GraphQL APIs by generating inputs from the schema, adapting to server responses, and chaining operations into workflows.
+license: MIT
+repository: https://github.com/schemathesis/schemathesis
+homepage: https://schemathesis.readthedocs.io
+authors:
+  - name: Zac Hatfield-Dodds
+    affiliation: Australian National University
+    orcid: 0000-0002-8646-8362
+  - name: Dmitry Dygalo
+    # affiliation:                # not found
+    # orcid:
+citation:
+  doi: 10.1145/3510454.3528637       # ICSE 2022 Companion
+
+compatibility:
+  openapi_versions: ["2.0", "3.0", "3.1", "3.2"]   # documentation, "Supported specifications"
+  spec_formats: [json]            # entrypoint.sh reads /specifications/${API}-openapi.json
+  budgets: [time]
