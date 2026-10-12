@@ -3,20 +3,20 @@ manifest_version: 1
 
 id: schemathesis
 name: Schemathesis
-version: "4.30.0"                 # pip install schemathesis==4.30.0
+version: "4.31.0"                 # pip install schemathesis==4.31.0
 description: Tests OpenAPI and GraphQL APIs by generating inputs from the schema, adapting to server responses, and chaining operations into workflows.
 license: MIT
 repository: https://github.com/schemathesis/schemathesis
 homepage: https://schemathesis.readthedocs.io
 authors:
   - name: Zac Hatfield-Dodds
-    affiliation: Australian National University
+    affiliation: Hypofuzz
     orcid: 0000-0002-8646-8362
   - name: Dmitry Dygalo
-    # affiliation:                # not found
-    # orcid:
+    affiliation: Schemathesis.io s.r.o.
+    orcid: 0009-0007-0712-6078
 citation:
-  doi: 10.1145/3510454.3528637       # ICSE 2022 Companion
+  doi: 10.1145/3786155.3795697       # SBFT 2026
 
 compatibility:
   openapi_versions: ["2.0", "3.0", "3.1", "3.2"]   # documentation, "Supported specifications"
