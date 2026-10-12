@@ -1,6 +1,6 @@
 FROM python:3.14-slim
 
-RUN pip install --no-cache-dir schemathesis==4.30.0
+RUN pip install --no-cache-dir schemathesis==4.31.0
 
 ENV PYTHONUNBUFFERED=1
 
